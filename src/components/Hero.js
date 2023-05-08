@@ -2,13 +2,20 @@ import "./HeroStyles.css"
 function Hero (props){
     return(
         <>
-        <div className={props.cName}>
-            <img alt ="HerpImg" src={props.heroImg} /> 
-            <div className="hero-text">
-                <h1>{props.title}</h1>
-                <a href={props.url} className={props.btnClass}>{props.buttonText}</a>
+        <div className="background"></div>
+        <div className="background-texture"></div>
+        <header className="header">
+            <div className="left-content">
+                <p className="stay-home">Stay Home!!</p>
+                <h2>Send your items swiftly and safely</h2>
+                <p></p>
+                <p className="para">
+                    That's what we need right now. Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Aliquam, corporis.
+                </p>
+                <button>Get Started</button>
             </div>
-        </div>
+        </header>
         </>
     );
 }

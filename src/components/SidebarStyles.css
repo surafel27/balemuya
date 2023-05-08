@@ -1,0 +1,7 @@
+.back {
+background: linear-gradient(
+    to top,
+    rgba(207, 195, 228, 0.9),
+    rgba(255, 255, 255, 0.9)
+  );
+}

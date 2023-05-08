@@ -1,0 +1,63 @@
+import "./FooterStyles.css";
+
+const Footer = () => {
+    return(
+        <div className="footer">
+            <div className="top">
+                <div>
+                    <h1>BalemuYa</h1>
+                    <p>Choose where you belongs!</p>
+                </div>
+                <div>
+                    <a href="/">
+                        <i className="fa-brands fa-facebook-square"></i>
+                    </a>
+                    <a href="/">
+                        <i className="fa-brands fa-instagram-square"></i>
+                    </a>
+                    <a href="/">
+                        <i className="fa-brands fa-twitter-square"></i>
+                    </a>
+                    <a href="/">
+                        <i className="fa-brands fa-linkdin-square"></i>
+                    </a>
+                </div>
+            </div>
+            <div className="bottom">
+                <div>
+                  <h4>Projects</h4>
+                   <a href="/">Changelog</a>
+                   <a href="/">Status</a>
+                   <a href="/">Licence</a>
+                   <a href="/">All Version</a>
+                </div>
+                <div>
+                  <h4>Projects</h4>
+                   <a href="/">Changelog</a>
+                   <a href="/">Status</a>
+                   <a href="/">Licence</a>
+                   <a href="/">All Version</a>
+                </div>
+                <div>
+                  <h4>Projects</h4>
+                   <a href="/">Changelog</a>
+                   <a href="/">Status</a>
+                   <a href="/">Licence</a>
+                   <a href="/">All Version</a>
+                </div>
+                <div>
+                  <h4>Projects</h4>
+                   <a href="/">Changelog</a>
+                   <a href="/">Status</a>
+                   <a href="/">Licence</a>
+                   <a href="/">All Version</a>
+                </div>
+            </div>
+            <div className="last-bottom">
+                <hr></hr>
+                <h2> @copyright 2022, Addis Ababa, Ethiopia</h2>
+            </div>
+        </div>
+    );
+}
+export default Footer
