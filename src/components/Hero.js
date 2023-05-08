@@ -13,7 +13,7 @@ function Hero (props){
                     That's what we need right now. Lorem ipsum dolor sit amet consectetur,
                     adipisicing elit. Aliquam, corporis.
                 </p>
-                <button>Get Started</button>
+                <button className="hero-btn">Get Started</button>
             </div>
         </header>
         </>

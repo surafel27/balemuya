@@ -52,7 +52,7 @@
 .nav-links-mobile {
     display: none;
 }
-button{
+.btn-nav{
     padding: 0.5rem 1rem;
     white-space: nowrap;
     border-radius: 0.3rem;
@@ -62,7 +62,7 @@ button{
     cursor: pointer;
     transition: 0.2s ease-in-out;
 }
-button:hover{
+.btn-nav:hover{
     background-color: #151516;
     color: #fff;
 }
@@ -112,7 +112,7 @@ button:hover{
         transition: none;
                   
     }
-    button{
+    .btn-nav {
         display: none;
     }
      .nav-links-mobile{
