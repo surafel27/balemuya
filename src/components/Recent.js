@@ -4,9 +4,8 @@ import "./RecentStyles.css";
 function Recent() {
     return (
         <div className="recent">
-            <h1>Recent Workers</h1>
+            <h1>Additional services</h1>
             <p>Discover your self here!</p>
-            <hr></hr>
             <div className="recentcard">
                 <RecentData 
                 heading="Unlimited work opportunity"

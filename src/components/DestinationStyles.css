@@ -3,6 +3,9 @@
 }
 .destination h1 {
     font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-weight: 400;
 }
 .first-des {
    display: flex;
@@ -26,6 +29,9 @@
 .des-text h2{
     padding-bottom: 1rem;
 }
+.des-text p{
+    text-align: justify;
+}
 .image1 {
     position: relative;
     width: 50%;
@@ -34,8 +40,8 @@
     z-index: -99;
 }
 .image1 img{
-    width: 49%;
-    height: 450px;
+    width: 48%;
+    height: 400px;
     object-fit: cover;
     border-radius: 6px;
     box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);

@@ -5,8 +5,8 @@ const Footer = () => {
         <div className="footer">
             <div className="top">
                 <div>
-                    <h1>BalemuYa</h1>
-                    <p>Choose where you belongs!</p>
+                    <h1>SHIPMATE</h1>
+                    <p>Stay Home!!</p>
                 </div>
                 <div>
                     <a href="/">
@@ -55,7 +55,7 @@ const Footer = () => {
             </div>
             <div className="last-bottom">
                 <hr></hr>
-                <h2> @copyright 2022, Addis Ababa, Ethiopia</h2>
+                <h2> @copyright 2023, Addis Ababa, Ethiopia</h2>
             </div>
         </div>
     );
