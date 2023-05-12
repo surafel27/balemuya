@@ -1,14 +1,17 @@
 //import Hero from "../components/Hero.js";
 //import Navbar from "../components/Navbar.js"
+
+import IdentityForm from "../components/Identity";
+
 //import Landing_page from "../assets/landing_page1.svg"
-import SignupForm from "../components/SignUp.js";
 //import Footer from "../components/Footer.js";
-function Signup (){
+function identity (){
     return(
         <>
-        <SignupForm/>
+        <IdentityForm/>
+        
         </>
     );
 
 }
-export default Signup;
+export default identity;
