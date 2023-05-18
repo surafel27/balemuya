@@ -15,10 +15,3 @@ h1 {
     padding-top: 4px;
     padding-bottom: -8px;
 }
-.logo {
-	background-image: url(https://app.logo.com/view/logo_bba605fd-eb60-4c14-8195-02581821fc00);
-	height: 60px;
-	width: 142px;
-	margin-left: 20px;
-    cursor: pointer;
-}

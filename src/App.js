@@ -5,7 +5,8 @@ import Home from "./pages/Home.js";
 import Service from "./pages/Service.js";
 import About from "./pages/About.js";
 import Contact from "./pages/Contact.js";
-import Signup from "./pages/Signup";
+import Login from "./pages/Login"
+import SignupSender from "./pages/SignupSender";
 import Identity from "./pages/Identity"
 import Dashboard from "./pages/Dashboard";
 function App() {
@@ -16,8 +17,9 @@ function App() {
         <Route path="/about" element={<About/>}></Route>
         <Route path="/service" element={<Service/>}></Route>
         <Route path="/contact" element={<Contact/>}></Route>
+        <Route path="/login" element={<Login/>}></Route>
         <Route path="/identity" element={<Identity/>}></Route>
-        <Route path="/signup" element={<Signup/>}></Route>
+        <Route path="/signupSender" element={<SignupSender/>}></Route>
         <Route path="/dashboard" element={<Dashboard/>}></Route>
       </Routes>
     </div>
