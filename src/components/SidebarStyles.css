@@ -1,7 +1,25 @@
-.back {
-background: linear-gradient(
-    to top,
-    rgba(207, 195, 228, 0.9),
-    rgba(255, 255, 255, 0.9)
-  );
+.sidebar-container {
+  width: 200px;
+  height: 100vh; /* Set the desired height for the sidebar */
+  border-right: 1px solid #CCCCCC;
+  background-color: #f2f2f2;
+}
+
+.sidebar {
+  background-color: #f2f2f2;
+}
+
+.sidebar-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background-color: #e0e0e0;
 }

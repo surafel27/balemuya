@@ -7,6 +7,7 @@ import About from "./pages/About.js";
 import Contact from "./pages/Contact.js";
 import Signup from "./pages/Signup";
 import Identity from "./pages/Identity"
+import Dashboard from "./pages/Dashboard";
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
         <Route path="/contact" element={<Contact/>}></Route>
         <Route path="/identity" element={<Identity/>}></Route>
         <Route path="/signup" element={<Signup/>}></Route>
+        <Route path="/dashboard" element={<Dashboard/>}></Route>
       </Routes>
     </div>
   );

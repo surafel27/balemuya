@@ -1,6 +1,6 @@
 .signup-form-container {
     position: relative;
-    top: 100px;
+    top: 30px;
     bottom: 0px;
     margin: 0 auto;
     width: 400px;
@@ -47,7 +47,7 @@
   .signup-form button {
     width: 100%;
     padding: 10px;
-    background-color: #333;
+    background-color: #034d0f;
     color: #fff;
     border: none;
     border-radius: 3px;
@@ -57,5 +57,5 @@
   }
   
   .signup-form button:hover {
-    background-color: #555;
+    background-color: #116406;
   }

@@ -17,8 +17,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0px 0px 10px #ccc;
-  }
-  
+  }  
   .identity-form h2 {
     font-size: 28px;
     margin-bottom: 20px;
@@ -45,7 +44,7 @@
   .identity-form .formButton {
     width: 100%;
     padding: 10px;
-    background-color: #333;
+    background-color: #034d0f;
     color: #fff;
     border: none;
     border-radius: 3px;
@@ -55,5 +54,5 @@
   }
   
   .identity-form  .formButton:hover {
-    background-color: #555;
+    background-color: #116406;
   }
