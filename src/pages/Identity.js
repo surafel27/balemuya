@@ -1,18 +1,27 @@
-//import Hero from "../components/Hero.js";
-//import Navbar from "../components/Navbar.js"
-
 import IdentityForm from "../components/Identity";
 import Header from "../components/Header"
-//import Landing_page from "../assets/landing_page1.svg"
-//import Footer from "../components/Footer.js";
-function Identity (){
+
+function SenderIdentity (){
+   const SenderIdentityForm = IdentityForm.sender
     return(
         <>
         <Header/>
-        <IdentityForm/>
-        
+        <SenderIdentityForm/>
+        </>
+    );
+}
+function TravellerIdentity (){
+   const TravellerIdentityForm = IdentityForm.traveller
+    return(
+        <>
+        <Header/>
+        <TravellerIdentityForm/>
         </>
     );
 
+}
+const Identity = {
+    sender: SenderIdentity,
+    traveller: TravellerIdentity
 }
 export default Identity;

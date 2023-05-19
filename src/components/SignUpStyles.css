@@ -1,17 +1,38 @@
-.signup-form-container {
+.signup-form-container-sender {
+    display: flex;
     position: relative;
     top: 30px;
     bottom: 0px;
     margin: 0 auto;
-    width: 400px;
+    width: 700px;
     margin-bottom: 120px;
+  }
+  .signup-form-container-traveller {
+    position: relative;
+    top: 30px;
+    bottom: 0px;
+    margin: 0 auto;
+    width: 700px;
+    margin-bottom: 120px;
+  }
+  .signup-form-info {
+    margin-top: 70px;
+  }
+  .signup-form-info h2 {
+    text-align: start;
+    font-weight: bold;
+  }
+  .signup-form-info ul li {
+    margin-top: 10px;
+    list-style-type: square;
+    text-align: start;
   }
 .signup-form {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 60%;
     margin: 0 auto;
     padding: 40px;
     border: 1px solid #ccc;

@@ -5,11 +5,11 @@ import Header from "../components/Header.js";
 import signUp from "../components/SignUp.js";
 //import Footer from "../components/Footer.js";
 function Signup (){
-    const SignupSenderForm = signUp.sender;
+    const SignupTravellerForm = signUp.traveller;
     return(
         <>
         <Header/>
-        <SignupSenderForm/>
+        <SignupTravellerForm/>
         </>
     );
 
