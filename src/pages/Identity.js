@@ -1,7 +1,8 @@
 import IdentityForm from "../components/Identity";
-import Header from "../components/Header"
+import Headers from "../components/Header"
 
 function SenderIdentity (){
+    const Header = Headers.header;
    const SenderIdentityForm = IdentityForm.sender
     return(
         <>
@@ -11,6 +12,7 @@ function SenderIdentity (){
     );
 }
 function TravellerIdentity (){
+    const Header = Headers.header;
    const TravellerIdentityForm = IdentityForm.traveller
     return(
         <>

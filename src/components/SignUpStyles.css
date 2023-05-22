@@ -80,3 +80,11 @@
   .signup-form button:hover {
     background-color: #116406;
   }
+  .link-button {
+    text-decoration: none;
+    color: #034d0f;
+    font-weight: bold;
+  }
+  .link-button:hover {
+    color: #072e02;
+  }
