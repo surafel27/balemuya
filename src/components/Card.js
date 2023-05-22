@@ -15,17 +15,22 @@ function CardWellCome () {
 
   const formattedDateTime = currentDateTime.toLocaleString();
     return(
-      <>
-        <div className="welcome-card-container">
+      <div className="container">
+        <div className="welcome-card">
             <p>{formattedDateTime}</p>
             <h1>Welcome Back, Surafel F.</h1>
         </div>
         <div className="search-input">
-          <form className='search-form'>
+          <form className="search-form">
           <input placeholder="search for package" type="text" id="searchPackage" name="searchPackage"/>
+        </form>
+        </div>
+        <div className="package-card">
+          <form className="form-package-card">
+            <
           </form>
         </div>
-        </>
+        </div>
     )
 }
 export default CardWellCome;
