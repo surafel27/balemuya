@@ -24,7 +24,7 @@ function HeaderDashboard(props) {
           <div className="user-photo">
              <img src={Profile} alt="User" />
           </div>
-          </div>
+        </div>
         </header>
       </>
   )

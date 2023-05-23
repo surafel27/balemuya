@@ -1,36 +1,39 @@
-import React, { useEffect, useState } from 'react';
-import "./CardStyles.css"
-function CardWellCome () {
-    const [currentDateTime, setCurrentDateTime] = useState(new Date());
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentDateTime(new Date());
-    }, 1000);
-
-    return () => {
-      clearInterval(timer);
-    };
-  }, []);
-
-  const formattedDateTime = currentDateTime.toLocaleString();
-    return(
-      <div className="container">
-        <div className="welcome-card">
-            <p>{formattedDateTime}</p>
-            <h1>Welcome Back, Surafel F.</h1>
-        </div>
-        <div className="search-input">
-          <form className="search-form">
-          <input placeholder="search for package" type="text" id="searchPackage" name="searchPackage"/>
-        </form>
-        </div>
-        <div className="package-card">
-          <form className="form-package-card">
-            <
-          </form>
-        </div>
-        </div>
-    )
+import Card from "./CardData";
+import Profile from "../assets/profile.png";
+import "./CardStyles.css";
+const PackageRequest = () => {
+    const CardRequst = Card.CardRequstData;
+return(
+    <>
+    <CardRequst
+    className ="container"
+    img = {Profile}
+    fullName = "Surafel Fekadu Megiso"
+    postTime = "posted 1hr ago"
+    packageRouteFrom = "Addis Abab"
+    packageRouteTo = "Hawassa"
+    detailStory = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+    price = "500"
+    packageWight = "10 kg"
+    dateToDelivery = "Fir"
+    monthToDelivery = "May"
+    yearToDelivery = "2023"
+    />
+    <CardRequst
+    className ="container"
+    img = {Profile}
+    fullName = "Ayele Alemu Megiso"
+    postTime = "posted 1hr ago"
+    packageRouteFrom = "Mekele"
+    packageRouteTo = "Addis Ababa"
+    detailStory = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+    price = "500"
+    packageWight = "25 kg"
+    dateToDelivery = "mon"
+    monthToDelivery = "july"
+    yearToDelivery = "2023"
+    />
+    </>
+);
 }
-export default CardWellCome;
+export default PackageRequest;

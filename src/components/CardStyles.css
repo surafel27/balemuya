@@ -3,6 +3,7 @@
   align-items: flex-end;
   margin: 0 auto;
 }
+
 .welcome-card {
     display: flex;
     flex-direction: column;
@@ -20,7 +21,7 @@
     position: relative;
     margin: 0 auto;
     width: 800px;
-    margin-bottom: 120px;
+    margin-bottom: 30px;
   }
   .search-form {
     display: flex;
@@ -37,4 +38,104 @@
     border: 1px solid #ccc;
     border-radius: 3px;
     font-size: 16px;
+  }
+  .package-card {
+    border: 1px solid #ccc;
+    width: 800px;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  .package-card:hover {
+    background: #eeeded;
+    cursor: pointer;
+  }
+  .user-header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #a19e9e;
+  }
+  .user-photo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  }
+  .user-photo h3 {
+    padding: 10px;
+  }
+  .package-destination {
+    justify-content: flex-start;
+    text-align: left;
+    padding-left: 20px;
+    padding: 10px;
+  }
+  .package-destination h3 {
+    text-align: left;
+    align-items: flex-start;
+    padding-left: 20px;
+    margin-bottom: 5px;
+  }
+  .package-destination h5 {
+    text-align: left;
+    align-items: flex-start;
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+  .package-destination p{
+    display: flex;
+    text-align: justify;
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+  .card-footer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    height: 50px;
+  }
+ .card-footer .btn-request{
+    width: 250px;
+    height: 45px;
+    padding: 10px;
+    background-color: #034d0f;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+  }
+  .card-footer .btn-request:hover {
+    background-color: #116406;
+  }
+  .card-icon {
+    margin-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .filter {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  .close {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  .filter:hover {
+    background-color: #ffffff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .close:hover {
+    background-color: #ffffff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
   }
