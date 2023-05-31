@@ -1,3 +1,4 @@
+import React from 'react';
 import Headers from "../components/Header.js";
 import signUp from "../components/SignUp.js";;
 function Signup (){
@@ -9,6 +10,5 @@ function Signup (){
         <SignupTravellerForm/>
         </>
     );
-
 }
 export default Signup;

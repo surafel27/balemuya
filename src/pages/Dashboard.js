@@ -1,18 +1,34 @@
-import Headers from "../components/Header";
-import Sidebar from "../components/Sidebar";
-import Card from "../components/CardData";
-import PackageRequest from "../components/Card";
-function Dashboard() {
-    const CardWellCome = Card.CardGreeting;
-   // const CardRequst = Card.CardRequstData
+import React from 'react';
+import Headers from "../components/Header"
+import Sidebar from '../components/Sidebar';
+import PackageRequestForm from '../components/PackageRequest';
+import PackageRequest from '../components/Card.js';
+import CardWellCome from '../components/WellcomCard.js';
+
+function SenderDashboard () {
+    const HeaderDashboard = Headers.headerDashboard;
+    return(
+        <>
+        <HeaderDashboard/>
+        <Sidebar/>
+        <CardWellCome />
+        <PackageRequest/>
+        </>
+    );
+}
+function TravellerDashboard (){
     const Header = Headers.headerDashboard;
     return(
         <>
         <Header/>
-        <Sidebar/>
-        <CardWellCome/>
-        <PackageRequest/>
+        <Sidebar />
+        <CardWellCome />
+        <PackageRequestForm/>
         </>
-    )
+    );
 }
-export default Dashboard;
+const myDashboard = {
+    sender: SenderDashboard,
+    traveller: TravellerDashboard
+}
+export default myDashboard;

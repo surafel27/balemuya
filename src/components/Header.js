@@ -1,3 +1,5 @@
+import React, { useState, useEffect, useRef } from 'react';
+import Popup from './Popup';
 import "./HeaderStyle.css"
 import Profile from "../assets/profile.png"
 
@@ -11,6 +13,25 @@ return(
 )
 }
 function HeaderDashboard(props) {
+  const [showPopup, setShowPopup] = useState(false);
+  const popupRef = useRef(null);
+
+  const togglePopup = () => {
+    setShowPopup(!showPopup);
+  };
+
+  const handleClickOutside = (event) => {
+    if (popupRef.current && !popupRef.current.contains(event.target)) {
+      setShowPopup(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
   return(
       <>
        <header >
@@ -18,6 +39,14 @@ function HeaderDashboard(props) {
           <h1>shipmate</h1>
         </div>
          <div className="fixed-header">
+         <div>
+      <button onClick={togglePopup}>Open Pop-up</button>
+      {showPopup && (
+        <div ref={popupRef}>
+          <Popup onClose={togglePopup} />
+        </div>
+      )}
+    </div>
           <div className="notification-icon">
             <i className="fa fa-bell"></i>
           </div>

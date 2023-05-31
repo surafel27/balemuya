@@ -1,3 +1,4 @@
+import React from 'react';
 import Hero from "../components/Hero.js";
 import Navbar from "../components/Navbar.js"
 //import Landing_page from "../assets/landing_page1.svg"

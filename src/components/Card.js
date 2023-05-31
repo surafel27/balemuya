@@ -1,8 +1,9 @@
-import Card from "./CardData";
+import React from 'react';
+import CardRequst from "./CardData";
 import Profile from "../assets/profile.png";
 import "./CardStyles.css";
 const PackageRequest = () => {
-    const CardRequst = Card.CardRequstData;
+    //const CardRequst = Card.CardRequstData;
 return(
     <>
     <CardRequst

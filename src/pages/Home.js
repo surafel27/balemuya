@@ -1,3 +1,4 @@
+import React from 'react';
 import Hero from "../components/Hero.js";
 import Navbar from "../components/Navbar.js"
 import Destination from "../components/Destination.js";

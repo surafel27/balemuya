@@ -1,5 +1,6 @@
 //import Landing_page from "../assets/landing_page1.svg"
 //import Landing_page1 from "../assets/team_up_re_.svg"
+import React from 'react';
 import DestinationData from "./DestinationData";
 import "./DestinationStyles.css"
 const Destination = () => {

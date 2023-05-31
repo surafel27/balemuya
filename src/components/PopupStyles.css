@@ -1,0 +1,16 @@
+.popup-container {
+  position: fixed;
+  top: 50%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+  height: 75%;
+  background-color: rgb(161, 159, 159);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+.popup-content {
+    background-color: antiquewhite;
+    height: 75%;
+}

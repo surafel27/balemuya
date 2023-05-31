@@ -1,3 +1,4 @@
+import React from 'react';
 import RecentData from "./RecentData";
 import "./RecentStyles.css";
 

@@ -1,3 +1,4 @@
+import React from 'react';
 import IdentityForm from "../components/Identity";
 import Headers from "../components/Header"
 

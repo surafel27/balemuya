@@ -1,3 +1,4 @@
+import React from 'react';
 import LoginData from "./LoginData";
 import delivery_truck from "../assets/delivery_truck.svg"
 import sender_mode from "../assets/sender_mode.svg"
@@ -14,7 +15,8 @@ function LoginCard() {
                 text="Create a delivery request, track a delivery and manage you'r account."
                 //image2 ="https://plus.unsplash.com/premium_photo-1670844568516-70751ae08b43?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
                 image2 ={sender_mode}
-                link = "/signupSender"
+                link = "/account/sender/signupSender"
+                
                 />
                 <div className="card-space" />
                  <LoginData 
@@ -22,7 +24,7 @@ function LoginCard() {
                 text = "View any request to your route, then accept the request and manage you'r account."
                //image2 ="https://plus.unsplash.com/premium_photo-1670844568516-70751ae08b43?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
                 image2 ={delivery_truck}
-                link = "/signupTraveller"
+                link = "/account/traveller/signupTraveller"
                 />
             </div>
         </div>

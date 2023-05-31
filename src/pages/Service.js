@@ -1,3 +1,4 @@
+import React from 'react';
 import Navbar from "../components/Navbar.js"
 import Destination from "../components/Destination.js";
 import Recent from "../components/Recent.js";
